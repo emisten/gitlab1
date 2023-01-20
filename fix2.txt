@@ -1,1 +1,36 @@
 
+LOCAL
+
+1. git init -b main
+2. git add README.md
+3. git commit -m "Initial commit"
+4. git switch -c feature1
+5. git commit -a -m "Replace moose with mouse, Add dog"
+6. git switch main
+7. git commit -a -m "Replace moose with mahmut"
+8. git merge feature1
+9. git add README.md
+10 git commit -a -m "merge feature1"
+11. git tag extinct
+12. git reset --hard baf95
+13. git branch feature2
+14. git commit -a -m "Uppercase on animal name"
+15. git switch feature2
+16. echo "" > fix1.txt
+17. echo "" > fix2.txt
+18. git add .\fix1.txt
+19. git commit -a -m "Add fix1.txt"
+20. git add .\fix2.txt
+21. git commit -a -m "Add fix2.txt"
+22. git switch main
+23. git cherry-pick feature2
+
+
+
+REMOTE
+
+1. git remote add origin https://github.com/emisten/gitlab1.git
+2. git 
+
+
+
