@@ -25,6 +25,16 @@ LOCAL
 22. git switch main
 23. git cherry-pick feature2
 
+24. git tag v1.0
+25. git commit -m "Version 1.0"
+26. git rebase -i
+27. reword .... "Version 1.0, added fix2.txt"
+28. git switch -c feature3
+29. git add fix2.txt
+30. git commit -m "Added the final steps"
+31. git switch main
+32. git merge feature3
+
 
 
 REMOTE
