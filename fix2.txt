@@ -36,7 +36,16 @@ REMOTE
 5. git push -u origin feature1
 6. git push -u origin feature2
 7. git commit -a -m "Remote setup"
+8. git push 
 
+
+
+
+
+IGNORE
+
+git add .gitignore
+git commit -m "Add .gitignore"
 
 
 
